@@ -67,20 +67,20 @@ namespace ENROLLMENT_SYSTEM_1._1
                             Console.WriteLine("\n\nHere are the complete details you provided.");
                             Console.Write("Would you like to continue? [YES/NO] ");
                             string con = Console.ReadLine();
-
-                            Console.WriteLine(Name.Continue(con));
                             string con2 = "YES";
 
                             if (con == con2)
                             {
+                                string studNum = Name.GetStudentNumber();
                                 Console.Clear();
                                 Console.WriteLine("\n------------------------------------------------------------------------------------------------------------------------");
                                 Console.WriteLine("\n\t\t\t\t  POLYTECHNIC UNIVERSITY OF THE PHILIPPINES-BINAN CAMPUS");
                                 Console.WriteLine("\n------------------------------------------------------------------------------------------------------------------------");
 
-
-                                Console.WriteLine("                  \t\t+                                                                                     +");
-                                Console.WriteLine($"\tAPPLICANT {sN} \t\t+                                                                                     +");
+                                Name.StudentNumber();
+                                Console.WriteLine("                  \t\t                                                                                     ");
+                                Console.WriteLine($"\tAPPLICANT {sN} \t\t                                                                                    ");
+                                Console.WriteLine($"\t               \t\t+ [STUDENT NUMBER] {studNum}");
                                 Console.WriteLine($"\t               \t\t+ [NAME] {sN}, {fN} {mN}");
                                 Console.WriteLine($"\t               \t\t+ [AGE] {iAge} years old");
                                 Console.WriteLine($"\t               \t\t+ [BIRTHDATE] {bMonth} {bDay}, {bYear}");
@@ -170,12 +170,14 @@ namespace ENROLLMENT_SYSTEM_1._1
 
                             if (con == con2)
                             {
+                                string studNum = Name.GetStudentNumber();
                                 Console.Clear();
                                 Console.WriteLine("\n------------------------------------------------------------------------------------------------------------------------");
                                 Console.WriteLine("\n\t\t\t\t  POLYTECHNIC UNIVERSITY OF THE PHILIPPINES-BINAN CAMPUS");
                                 Console.WriteLine("\n------------------------------------------------------------------------------------------------------------------------");
-                                Console.WriteLine("                  \t\t+                                                                                     +");
-                                Console.WriteLine($"\tAPPLICANT {sN} \t\t+                                                                                     +");
+                                Console.WriteLine("                  \t\t                                                                                     ");
+                                Console.WriteLine($"\tAPPLICANT {sN} \t\t                                                                                     ");
+                                Console.WriteLine($"\t               \t\t+ [STUDENT NUMBER] {studNum}");
                                 Console.WriteLine($"\t               \t\t+ [NAME] {sN}, {fN} {mN}");
                                 Console.WriteLine($"\t               \t\t+ [AGE] {iAge} years old");
                                 Console.WriteLine($"\t               \t\t+ [BIRTHDATE] {bMonth} {bDay}, {bYear}");
@@ -265,12 +267,14 @@ namespace ENROLLMENT_SYSTEM_1._1
 
                             if (con == con2)
                             {
+                                string studNum = Name.GetStudentNumber();
                                 Console.Clear();
                                 Console.WriteLine("\n------------------------------------------------------------------------------------------------------------------------");
                                 Console.WriteLine("\n\t\t\t\t  POLYTECHNIC UNIVERSITY OF THE PHILIPPINES-BINAN CAMPUS");
                                 Console.WriteLine("\n------------------------------------------------------------------------------------------------------------------------");
-                                Console.WriteLine("                  \t\t+                                                                                     +");
-                                Console.WriteLine($"\tAPPLICANT {sN} \t\t+                                                                                     +");
+                                Console.WriteLine("                  \t\t                                                                                     ");
+                                Console.WriteLine($"\tAPPLICANT {sN} \t\t                                                                                     ");
+                                Console.WriteLine($"\t               \t\t+ [STUDENT NUMBER] {studNum}");
                                 Console.WriteLine($"\t               \t\t+ [NAME] {sN}, {fN} {mN}");
                                 Console.WriteLine($"\t               \t\t+ [AGE] {iAge} years old");
                                 Console.WriteLine($"\t               \t\t+ [BIRTHDATE] {bMonth} {bDay}, {bYear}");
@@ -360,12 +364,14 @@ namespace ENROLLMENT_SYSTEM_1._1
 
                             if (con == con2)
                             {
+                                string studNum = Name.GetStudentNumber();
                                 Console.Clear();
                                 Console.WriteLine("\n------------------------------------------------------------------------------------------------------------------------");
                                 Console.WriteLine("\n\t\t\t\t  POLYTECHNIC UNIVERSITY OF THE PHILIPPINES-BINAN CAMPUS");
                                 Console.WriteLine("\n------------------------------------------------------------------------------------------------------------------------");
-                                Console.WriteLine("                  \t\t+                                                                                     +");
-                                Console.WriteLine($"\tAPPLICANT {sN} \t\t+                                                                                     +");
+                                Console.WriteLine("                  \t\t                                                                                     ");
+                                Console.WriteLine($"\tAPPLICANT {sN} \t\t                                                                                     ");
+                                Console.WriteLine($"\t               \t\t+ [STUDENT NUMBER] {studNum}");
                                 Console.WriteLine($"\t               \t\t+ [NAME] {sN}, {fN} {mN}");
                                 Console.WriteLine($"\t               \t\t+ [AGE] {iAge} years old");
                                 Console.WriteLine($"\t               \t\t+ [BIRTHDATE] {bMonth} {bDay}, {bYear}");
@@ -455,12 +461,14 @@ namespace ENROLLMENT_SYSTEM_1._1
 
                             if (con == con2)
                             {
+                                string studNum = Name.GetStudentNumber();
                                 Console.Clear();
                                 Console.WriteLine("\n------------------------------------------------------------------------------------------------------------------------");
                                 Console.WriteLine("\n\t\t\t\t  POLYTECHNIC UNIVERSITY OF THE PHILIPPINES-BINAN CAMPUS");
                                 Console.WriteLine("\n------------------------------------------------------------------------------------------------------------------------");
-                                Console.WriteLine("                  \t\t+                                                                                     +");
-                                Console.WriteLine($"\tAPPLICANT {sN} \t\t+                                                                                     +");
+                                Console.WriteLine("                  \t\t                                                                                     ");
+                                Console.WriteLine($"\tAPPLICANT {sN} \t\t                                                                                     ");
+                                Console.WriteLine($"\t               \t\t+ [STUDENT NUMBER] {studNum}");
                                 Console.WriteLine($"\t               \t\t+ [NAME] {sN}, {fN} {mN}");
                                 Console.WriteLine($"\t               \t\t+ [AGE] {iAge} years old");
                                 Console.WriteLine($"\t               \t\t+ [BIRTHDATE] {bMonth} {bDay}, {bYear}");

@@ -9,7 +9,7 @@ namespace ENROLLMENT_SYSTEM_1._1
     internal class Name
     {
         static List<string> users = new List<string>();
-
+        static int studentCount = 2;
         public static void StudentNumber()
         {
             users.Add("2024-00001-BN-0");
@@ -22,21 +22,15 @@ namespace ENROLLMENT_SYSTEM_1._1
             users.Add("2024-00008-BN-0");
             users.Add("2024-00009-BN-0");
             users.Add("2024-00010-BN-0");
+
         }
-        public static bool Continue(string con2)
+        public static string GetStudentNumber()
         {
-            StudentNumber();
-
-            bool result = false;
-
-            foreach (var user in users)
+            if (studentCount >= users.Count)
             {
-                if (user == con2)
-                {
-                    result = true;
-                }
+                return "No slot available";
             }
-            return result;
-        }
+            return users[studentCount++];
+        } 
     }
 }

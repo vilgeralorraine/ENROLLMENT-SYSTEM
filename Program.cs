@@ -77,7 +77,6 @@ namespace ENROLLMENT_SYSTEM_1._1
                                 Console.WriteLine("\n\t\t\t\t  POLYTECHNIC UNIVERSITY OF THE PHILIPPINES-BINAN CAMPUS");
                                 Console.WriteLine("\n------------------------------------------------------------------------------------------------------------------------");
 
-                                Name.StudentNumber();
                                 Console.WriteLine("                  \t\t                                                                                     ");
                                 Console.WriteLine($"\tAPPLICANT {sN} \t\t                                                                                    ");
                                 Console.WriteLine($"\t               \t\t+ [STUDENT NUMBER] {studNum}");

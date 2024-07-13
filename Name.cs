@@ -9,7 +9,7 @@ namespace ENROLLMENT_SYSTEM_1._1
     internal class Name
     {
         static List<string> users = new List<string>();
-        static int studentCount = 2;
+        static int studentCount = 0;
         public static void StudentNumber()
         {
             users.Add("2024-00001-BN-0");
@@ -26,7 +26,8 @@ namespace ENROLLMENT_SYSTEM_1._1
         }
         public static string GetStudentNumber()
         {
-            if (studentCount >= users.Count)
+            StudentNumber();
+            if (studentCount == users.Count)
             {
                 return "No slot available";
             }
